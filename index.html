@@ -40,7 +40,7 @@
 					<img id='button-greeter-screen-image' class='button-login-form-image' draggable='false' src='assets/back.svg'></img>
 				</button>
 				<div id='input-password-box'>
-					<input type='password' id='input-password' autocomplete='off' placeholder='Enter Password'/>
+					<input type='password' id='input-password' autocomplete='off' placeholder='Ingresa tu contraseña'/>
 				</div>
 				<button id='button-authenticate' class='button-login-form'>
 					<img id='button-authenticate-image' class='button-login-form-image' draggable='false' src='assets/forward.svg'></img>
@@ -123,7 +123,7 @@
 								<div class='button-sidebar-item-image-parent' id='button-selection-item-image-parent'>
 									<img class='button-sidebar-item-image' src='assets/settings/accounts.svg'>
 								</div>
-								<label class='button-sidebar-item-name' id='sidebar-item-account'>Accounts</label>
+								<label class='button-sidebar-item-name'>Cuentas</label>
 							</button>
 						</li>
 						<li>
@@ -131,7 +131,7 @@
 								<div class='button-sidebar-item-image-parent' id='button-selection-item-image-parent'>
 									<img class='button-sidebar-item-image' src='assets/settings/sessions.svg'>
 								</div>
-								<label class='button-sidebar-item-name' id='sidebar-item-sessions'>Sessions</label>
+								<label class='button-sidebar-item-name'>Sesiones</label>
 							</button>
 						</li>
 						<li>
@@ -139,7 +139,7 @@
 								<div class='button-sidebar-item-image-parent' id='button-selection-item-image-parent'>
 									<img class='button-sidebar-item-image' src='assets/settings/background.svg'>
 								</div>
-								<label class='button-sidebar-item-name' id='sidebar-item-background'>Background</label>
+								<label class='button-sidebar-item-name'>Fondos</label>
 							</button>
 						</li>
 						<li>
@@ -147,7 +147,7 @@
 								<div class='button-sidebar-item-image-parent' id='button-selection-item-image-parent'>
 									<img class='button-sidebar-item-image' src='assets/settings/themes.svg'>
 								</div>
-								<label class='button-sidebar-item-name' id='sidebar-item-themes'>Themes</label>
+								<label class='button-sidebar-item-name'>Temas</label>
 							</button>
 						</li>
 						<li>
@@ -155,7 +155,7 @@
 								<div class='button-sidebar-item-image-parent' id='button-selection-item-image-parent'>
 									<img class='button-sidebar-item-image' src='assets/settings/keybinds.svg'>
 								</div>
-								<label class='button-sidebar-item-name' id='sidebar-item-keybinding'>Keybindings</label>
+								<label class='button-sidebar-item-name'>Atajos</label>
 							</button>
 						</li>
 						<li>
@@ -163,7 +163,7 @@
 								<div class='button-sidebar-item-image-parent' id='button-selection-item-image-parent'>
 									<img class='button-sidebar-item-image' src='assets/settings/power.svg'>
 								</div>
-								<label class='button-sidebar-item-name' id='sidebar-item-power'>Power</label>
+								<label class='button-sidebar-item-name'>Apagar</label>
 							</button>
 						</li>
 					</ul>
@@ -186,14 +186,14 @@
 				<div class='sidebar-group sidebar-group-settings' id='sidebar-settings-themes'>
 					
 					<div class='sidebar-settings-content'>
-						<label for='sidebar-settings-bg-input' class='label-settings-input' id='sidebar-input-background'>Background Color and Opacity</label>
+						<label for='sidebar-settings-bg-input' class='label-settings-input'>Color de fondo y opacidad</label>
 						<div id='input-bg-parent' class='input-parent'>
 							<input type='text' placeholder='#000000' class='sidebar-settings-input' id='sidebar-settings-bg-input'>
 							<input type='text' placeholder='66' class='sidebar-settings-input sidebar-one-third-input' id='sidebar-settings-bg-opacity-input'>
 						</div>
 					</div>
 					<div class='sidebar-settings-content'>
-						<label for='sidebar-settings-fg-input' class='label-settings-input' id='sidebar-input-foregorund'>Foreground Color and Opacity</label>
+						<label for='sidebar-settings-fg-input' class='label-settings-input'>Color de frente y opacidad</label>
 						<div id='input-fg-parent' class='input-parent'>
 							<input type='text' placeholder='#FEFEFE' class='sidebar-settings-input' id='sidebar-settings-fg-input'>
 							<input type='text' placeholder='FF' class='sidebar-settings-input sidebar-one-third-input' id='sidebar-settings-fg-opacity-input'>
@@ -201,43 +201,33 @@
 					</div>
 
 					<div class='sidebar-settings-content'>
-						<label for='sidebar-settings-blur-input' class='label-settings-input' id='sidebar-input-blur'>Blur Strength</label>
+						<label for='sidebar-settings-blur-input' class='label-settings-input'>Fuerza del Blur</label>
 						<div id='input-blur-parent' class='input-parent'>
 							<input type='text' placeholder='9px' class='sidebar-settings-input' id='sidebar-settings-blur-input'>
 						</div>
 					</div>
 					<div class='sidebar-settings-content'>
-						<label for='sidebar-settings-animation-input' class='label-settings-input' id='sidebar-input-animation'>Animation Speed</label>
+						<label for='sidebar-settings-animation-input' class='label-settings-input'>Velocidad de animacion</label>
 						<div id='input-animation-parent' class='input-parent'>
 							<input type='text' placeholder='300ms' class='sidebar-settings-input' id='sidebar-settings-animation-input'>
 						</div>
 					</div>
 					<div class='sidebar-settings-content'>
-						<label for='sidebar-settings-animation-input' class='label-settings-input' id='sidebar-input-language'>Language</label>
-						<div id='input-animation-parent' class='input-parent'>
-							
-							<select class='sidebar-settings-input' id='sidebar-settings-language'>
-								<option value="en_us" selected>English</option>
-								<option value="pt_br">Português (Brasil)</option>
-							</select>
-						</div>
-					</div>
-					<div class='sidebar-settings-content'>
 						<div id='input-buttons-parent' class='input-parent'>
-							<button type='button' class='button-input' id='button-input-themes-reset'>Reset</button>
-							<button type='button' class='button-input' id='button-input-themes-apply'>Apply</button>
+							<button type='button' class='button-input' id='button-input-themes-reset'>Restablecer</button>
+							<button type='button' class='button-input' id='button-input-themes-apply'>Aplicar</button>
 						</div>
 					</div>
 				</div>
 				<div class='sidebar-group sidebar-group-settings' id='sidebar-settings-keybindings'>
 					<div class='sidebar-settings-content'>
-						<label for='sidebar-settings-modifier-input' class='label-settings-input' id='sidebar-input-modifier'>Modifier Key</label>
+						<label for='sidebar-settings-modifier-input' class='label-settings-input'>Tecla de atajos</label>
 						<div id='input-modifier-parent' class='input-parent'>
 							<input type='text' autocomplete='off' placeholder='Alt' class='sidebar-settings-input' id='sidebar-settings-modifier-input'>
 						</div>
 					</div>
 					<div class='sidebar-settings-content'>
-						<label for='sidebar-settings-sidebar-modifier-input' class='label-settings-input' id='sidebar-input-sidebar-key'>Sidebar Key</label>
+						<label for='sidebar-settings-sidebar-modifier-input' class='label-settings-input'>Atajo barra lateral</label>
 						<div id='input-sidebar-parent' class='input-parent'>
 							<input type='text' readonly='readonly' tabindex='-1' autocomplete='off' placeholder='Alt' class='sidebar-settings-input sidebar-double-input sidebar-input-modifier-read' id='sidebar-settings-sidebar-modifier-input'>
 							<label for='sidebar-settings-sidebar-key-input' class='label-settings-input-plus'>+</label>
@@ -245,7 +235,7 @@
 						</div>
 					</div>
 					<div class='sidebar-settings-content'>
-						<label for='sidebar-settings-sessions-modifier-input' class='label-settings-input' id='sidebar-input-sessions-key'>Sessions Key</label>
+						<label for='sidebar-settings-sessions-modifier-input' class='label-settings-input'>Atajo sesiones</label>
 						<div id='input-sessions-parent' class='input-parent'>
 							<input type='text' readonly='readonly' tabindex='-1' autocomplete='off' placeholder='Alt' class='sidebar-settings-input sidebar-double-input sidebar-input-modifier-read' id='sidebar-settings-sessions-modifier-input'>
 							<label for='sidebar-settings-sessions-key-input' class='label-settings-input-plus'>+</label>
@@ -253,7 +243,7 @@
 						</div>
 					</div>
 					<div class='sidebar-settings-content'>
-						<label for='sidebar-settings-power-modifier-input' class='label-settings-input' id='sidebar-input-power-key'>Power Key</label>
+						<label for='sidebar-settings-power-modifier-input' class='label-settings-input'>Atajo apagar</label>
 						<div id='input-power-parent' class='input-parent'>
 							<input type='text' readonly='readonly' tabindex='-1' autocomplete='off' placeholder='Alt' class='sidebar-settings-input sidebar-double-input sidebar-input-modifier-read' id='sidebar-settings-power-modifier-input'>
 							<label for='sidebar-settings-power-key-input' class='label-settings-input-plus'>+</label>
@@ -261,7 +251,7 @@
 						</div>
 					</div>
 					<div class='sidebar-settings-content'>
-						<label for='sidebar-settings-accounts-modifier-input' class='label-settings-input' id='sidebar-input-accounts-key'>Accounts Key</label>
+						<label for='sidebar-settings-accounts-modifier-input' class='label-settings-input'>Atajo cuentas</label>
 						<div id='input-accounts-parent' class='input-parent'>
 							<input type='text' readonly='readonly' tabindex='-1' autocomplete='off' placeholder='Alt' class='sidebar-settings-input sidebar-double-input sidebar-input-modifier-read' id='sidebar-settings-accounts-modifier-input'>
 							<label for='sidebar-settings-accounts-key-input' class='label-settings-input-plus'>+</label>
@@ -269,15 +259,15 @@
 						</div>
 					</div>
 					<div class='sidebar-settings-content'>
-						<label for='sidebar-settings-close-input' class='label-settings-input' id='sidebar-input-close-back'>Close/Back Key</label>
+						<label for='sidebar-settings-close-input' class='label-settings-input'>Tecla Cerrar/Atràs</label>
 						<div id='input-close-parent' class='input-parent'>
 							<input type='text' placeholder='Escape' class='sidebar-settings-input' id='sidebar-settings-close-key-input'>
 						</div>
 					</div>
 					<div class='sidebar-settings-content'>
 						<div id='input-buttons-parent' class='input-parent'>
-							<button type='button'  class='button-input' id='button-input-keybind-reset'>Reset</button>
-							<button type='button'  class='button-input' id='button-input-keybind-apply'>Apply</button>
+							<button type='button'  class='button-input' id='button-input-keybind-reset'>Restablecer</button>
+							<button type='button'  class='button-input' id='button-input-keybind-apply'>Aplicar</button>
 						</div>
 					</div>
 				</div>
@@ -307,8 +297,6 @@
 			</button>
 		</div>
 	</div>
-	<script type='text/javascript' src='lang/vars.js'></script>
-	<script type='text/javascript' src='js/language.js'></script>
 	<script type='text/javascript' src='js/debug.js'></script>
 	<script type='text/javascript' src='js/user-profile.js'></script>
 	<script type='text/javascript' src='js/authenticate.js'></script>
